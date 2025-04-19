@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Student files
+student_grades.xlsx
+students.xlsx@
+students_MEM_Year1.xlsx
+students_report.aux
+students_report.log
+students_report.pdf
+students_report.tex
+photos/
+
+# Log files
+*.log
+
+# VSCode settings
+.vscode/
+
+# Virtual environments
+env/
+venv/
+
+# Earlier manual backups, soon to become obsolete
+early_backups/
+
+# Temporary files
+*.tmp
+.DS_Store
