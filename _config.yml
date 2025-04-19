@@ -1,0 +1,31 @@
+# _config.yml
+
+title: ISEP CMI Propostas de Tese de Mestrado
+description: 
+theme: jekyll-theme-primer
+
+# URL settings (optional, helpful for custom domains)
+#url: "https://yourusername.github.io"
+#baseurl: "" # leave blank if deploying to root
+
+# Markdown and plugin settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Files/folders to exclude from the build
+exclude:
+  - rate_students.py
+  - student_grades.xlsx
+  - students.xlsx
+  - students_MEM_Year1.xlsx
+  - students_report.aux
+  - students_report.log
+  - students_report.pdf
+  - students_report.tex
