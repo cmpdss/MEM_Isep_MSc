@@ -19,12 +19,17 @@ plugins:
   - jekyll-default-layout
   - jekyll-titles-from-headings
 
-# Files/folders to exclude from the build
+# Files/folders to exclude from the build (unnecessary for GitHub Pages)
 exclude:
+  # Scripts
   - rate_students.py
+
+  # Student data files
   - student_grades.xlsx
   - students.xlsx
   - students_MEM_Year1.xlsx
+
+  # Generated reports
   - students_report.aux
   - students_report.log
   - students_report.pdf
