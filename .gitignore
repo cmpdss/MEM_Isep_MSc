@@ -22,3 +22,4 @@ early_backups/
 # Temporary files
 *.tmp
 .DS_Store
+.git.bak
